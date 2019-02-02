@@ -1,13 +1,13 @@
 # maven-tutorial
-https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+0. Introduction
+ - 3 tier web architecture
 
-0. 3 tier web architecture
+ - SOLID principles - https://web-creator.ru/articles/solid
 
-0. SOLID principles - https://web-creator.ru/articles/solid
+A. What is Maven. https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+ - War file structure. See image 1
 
-0. War file structure. See image 1
-
-A. POM structure - https://maven.apache.org/pom.html
+ - POM structure - https://maven.apache.org/pom.html
 
 B. Maven build stages. see image 2
 https://www.studytonight.com/maven/maven-build-life-cycle
@@ -18,16 +18,13 @@ C. Work with modules:
 
 2. Add web module inside parent project: mvn archetype:generate -DgroupId=com.intexsoft -DartifactId=web -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
 
-2.1 Add folder src\main\java\com\intexsoft
-
 3. Add service module inside parent project: mvn archetype:generate -DgroupId=com.intexsoft -DartifactId=service -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 4. Add repository module inside parent project: mvn archetype:generate -DgroupId=com.intexsoft -DartifactId=repository -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 5. Add model module inside parent project: mvn archetype:generate -DgroupId=com.intexsoft -DartifactId=model -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
-D. Dependencies and dependencies management
-1. Dependency scope: see image 3
+D. Dependencies and dependencies management. Dependency scope: see image 3
 
 E. Plugins:
 https://maven.apache.org/plugins/
